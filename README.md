@@ -45,9 +45,6 @@ import to.inten.api.intent.Result;
 
 IntentApi api = IntentApi.create("INTENTO API KEY");
 
-IntentReq req;
-Result res;
-
 IntentReq req = IntentReq.post("/ai/text/translate", "
 {
         \"context\": {
